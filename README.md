@@ -1,2 +1,2 @@
 # mytestsite
-My test for tests.
+My site for tests.
