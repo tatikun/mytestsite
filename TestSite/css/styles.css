@@ -1,4 +1,16 @@
 p {
-    font-size: 40px;
+    font-size: 12px;
     color: red;
+}
+
+.window{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 50%;
+    background: #333;
+}
+
+.hidden{
+    visibility: hidden;
 }
