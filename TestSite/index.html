@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title>Mytest</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <div class="window" id="text">
-            <p>てすとてすとあ</p>
-        </div>
-        <script src="js/main.js"></script>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <title>Tab Menu</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="menu">
+            <li><a href="#" class="active" data-id="about">サイトの概要</a></li>
+            <li><a href="#" data-id="service">サービス内容</a></li>
+            <li><a href="#" data-id="contact">お問い合わせ</a></li>
+        </ul>
+
+        <section class="content active" id="about">
+            サイトの概要1。
+        </section>
+        <section class="content" id="service">
+            サイトの概要2。
+        </section>
+        <section class="content" id="contact">
+            サイトの概要3。
+        </section>
+    </div> 
+    
+    <script src="js/main.js"></script>
+</body>
 </html>
